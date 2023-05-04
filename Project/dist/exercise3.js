@@ -5,7 +5,7 @@ class Car {
         this.acceleration = 0;
     }
     honk() {
-        console.log(` ${this.name} is saying: Toooooooooot!`);
+        console.log(`${this.name} is saying: Toooooooooot!`);
     }
     accelerate(speed) {
         this.acceleration = this.acceleration + speed;
