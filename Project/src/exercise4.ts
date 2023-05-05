@@ -16,8 +16,9 @@ rectangle.calcSize = function(): number {
 
 console.log(rectangle.calcSize()); // 10
 
-class BaseObject {
+abstract class BaseObject {
     constructor(public width: number, public length: number) {}
+    abstract calcSize(): number
 }
 
 class Rectangle extends BaseObject {
